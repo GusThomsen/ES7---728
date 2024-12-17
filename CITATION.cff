@@ -1,13 +1,26 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+title: Physics-Informed Neural Network
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
 authors:
-  - family-names: Thomsen
-    given-names: Daniel
-    # given-names: Emil
-    # given-names: Gustav
-title: "Physics-Informed Neural Network"
-version: 2.0.4
-identifiers:
-  - type: doi
-    # value: 10.5281/zenodo.1234
-date-released: 2024-20-12
+  - given-names: Daniel Fredsgaard
+    family-names: Hermansen
+    email: d@familien-hermansen.dk
+    affiliation: Aalborg University
+  - given-names: Emil Damgaard
+    family-names: Sørensen
+    email: dextilitygamer@live.dk
+    affiliation: Aalborg University
+  - given-names: Gustav Raaen
+    family-names: Thoomsen
+    email: gustav.thomsen@gmail.com
+    affiliation: Aalborg University
+repository-code: 'https://github.com/GusThomsen/ES7---728'
+abstract: >-
+  GitHub repository for group 728 at Electronic Systems
+  Aalborg university. In this repository, code for the
+  project for PINN's are submitted as well as other relevant
+  information.
+date-released: '2024-12-18'

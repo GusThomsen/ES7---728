@@ -266,7 +266,7 @@ tempTable = array2table(temperatureMatrix, 'VariableNames', timeCols);
 fullTable = [coordsTable, tempTable];
 
 % Optional: Save the table to a CSV file for later analysis
-writetable(fullTable, 'UniquePoints_TemperatureOverTime.csv');
+writetable(fullTable, 'FullTable.csv');
 
 
 %% Compute voltage drop in heater with added measurement noise
@@ -313,8 +313,6 @@ Voltage_Current_Matrix_table.Properties.VariableNames = variableNames;
 
 % Step 5: Concatenate the tables vertically
 combinedTable = [fullTable; Voltage_Current_Matrix_table];
-
-save('combinedTable.mat', 'combinedTable');
 
 %% 
 figure(7)
